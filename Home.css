@@ -1,0 +1,176 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 895px;
+}
+
+.u-section-1 .u-group-1 {
+  width: 160px;
+  min-height: 28px;
+  height: auto;
+  margin: 78px auto 0 0;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.u-section-1 .u-custom-html-1 {
+  min-height: 25px;
+  height: auto;
+  margin: 2px 30px 0 -30px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: -26px -30px 0;
+}
+
+.u-section-1 .u-group-2 {
+  width: 160px;
+  min-height: 27px;
+  height: auto;
+  margin: -27px 78px 60px auto;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.u-section-1 .u-custom-html-2 {
+  min-height: 25px;
+  height: auto;
+  margin: 2px 30px 0 -30px;
+}
+
+.u-section-1 .u-text-2 {
+  background-image: none;
+  margin: -27px -30px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-group-1 {
+    height: auto;
+  }
+
+  .u-section-1 .u-custom-html-1 {
+    width: 166px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 50px;
+  }
+
+  .u-section-1 .u-group-2 {
+    height: auto;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}progress.hpBar {
+    border: none;
+    width: 200px;
+    height: 15px;
+    background: crimson;
+    position: relative;
+    bottom: 305px;
+    right: 0px;
+    margin: 0px;
+}
+progress.hpBar {
+    color: lightblue;
+}
+    progress.hpBar::-webkit-progress-value {
+        background: aqua;
+    }
+    progress.hpBar::-moz-progress-bar {
+        background: lightcolor;
+    }
+    progress.hpBar::-webkit-progress-value {
+        background: lime;
+    }
+    progress.hpBar::-webkit-progress-bar {
+        background: gainsboro;
+    }
+progress.energyBar {
+    border: none;
+    width: 200px;
+    height: 15px;
+    background: crimson;
+    position: relative;
+    bottom: 0px;
+    left: 00px;
+    margin: 0px;
+}
+progress.energyBar {
+    color: lightblue;
+}
+    progress.energyBar::-webkit-progress-value {
+        background: aqua;
+    }
+    progress.energyBar::-moz-progress-bar {
+        background: lightcolor;
+    }
+    progress.energyBar::-webkit-progress-value {
+        background: cyan;
+    }
+    progress.energyBar::-webkit-progress-bar {
+        background: gainsboro;
+    }
+.healthBarGroup {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 200px;
+    height: 15px;
+    top: 0px;
+    margin: 0px;
+}
+.energyBarGroup {
+    text-align: center;
+    width: 200px;
+    height: 15px;
+    top: 0px;
+    margin: 0px;
+    border: 5px solid red;
+}
+p.healthText {
+    bottom: 0px;
+    margin: 0px;
+}
+p.energyText {
+    bottom: 0px;
+    margin: 0px;
+    bottom: 50px;
+}
+.bars {
+    justify-content: center;
+    align-items: center;
+    align-content:center;
+    width: 1000px;
+    height: 15px;
+    outline: 5px solid blue;
+}
+.screenBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
