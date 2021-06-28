@@ -8,9 +8,7 @@
     <meta http-equiv="refresh" content="5; URL=javascript:window.open('http://google.com','_parent');">
     <meta name="page_type" content="np-template-header-footer-from-plugin">
     <title>Home</title>
-    <link rel="stylesheet" href="styles.css">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
-    
+    <link rel="stylesheet" href="styles.css"/>
     
     <meta property="og:title" content="Home">
     <meta property="og:type" content="website">
@@ -19,11 +17,12 @@
     <meta property="og:url" content="index.html">
   </head>
   <body>
-    <div class="menu">
-      <a class="dyntes" href="">Dyntes</a>
-    </div>
-    <div class="list">
-      <a class="list" href="elemental-wars/">Elemental Wars</a>
-    </div>
+    <button onclick="myFunction()">Replace document</button>
+
+  <script>
+  function myFunction() {
+    location.replace("https://www.w3schools.com")
+  }
+  </script>
   </body>
 </html>
