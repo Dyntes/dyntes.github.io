@@ -21,6 +21,9 @@
   background-color: #C6C6C6;
   text-align: center;
 }
+.leftBar li {
+	display: inline-block;
+}
 
 .rightInfo {
 	width: 70%;
