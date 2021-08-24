@@ -16,11 +16,10 @@
 }
 
 .leftBar {
+  float: left;
   width: 30%;
-  border: 3px solid green;
   background-color: #C6C6C6;
   text-align: center;
-  margin: 7px;
 }
 
 .rightInfo {
