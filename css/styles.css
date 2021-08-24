@@ -8,7 +8,7 @@
   margin: auto;
   width: 50%;
   height: auto;
-  border: 3px solid green;
+  background-color: #777;
   padding: 10px;
   text-align: center;
 }
@@ -24,7 +24,6 @@
 nav {
   float: left;
   width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
 }
