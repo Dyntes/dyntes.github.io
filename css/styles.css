@@ -17,12 +17,12 @@
 
 .leftBar {
   float: left;
-  width: 30%;
+  width: 10%;
   background-color: #C6C6C6;
   text-align: center;
 }
 .rightInfo {
-	width: 70%;
+	width: 90%;
 	background-color: white;
 }
 
