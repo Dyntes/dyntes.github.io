@@ -2,9 +2,13 @@
   box-sizing: border-box;
 }
 
-.sticky {
+.stickyTop{
   position: -webkit-sticky;
   position: sticky;
+}
+
+.title {
+	
 }
 
 /* Create two columns/boxes that floats next to each other */
