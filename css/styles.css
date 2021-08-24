@@ -13,8 +13,10 @@
 }
 
 .title {
+  background-color: #777;
   padding: 10px;
   text-align: center;
+  color: white;
 }
 
 /* Create two columns/boxes that floats next to each other */
