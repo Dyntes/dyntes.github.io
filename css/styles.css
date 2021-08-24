@@ -6,9 +6,8 @@
   position: -webkit-sticky;
   position: sticky;
   margin: auto;
-  width: 50%;
+  width: 100%;
   height: auto;
-  padding: 10px;
   text-align: center;
   color: white;
   background-color: black;
@@ -16,6 +15,7 @@
 
 .title {
   background-color: #777;
+  width: 100%;
   padding: 10px;
   text-align: center;
   color: white;
