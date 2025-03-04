@@ -1,3 +1,8 @@
-p{
-    color: red;
+html{
+    background-color: black;
+}
+
+body{
+    border-style: double solid solid double;
+    border-color: aqua;
 }
